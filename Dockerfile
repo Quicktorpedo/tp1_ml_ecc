@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api/ api/
 COPY models/ models/
 COPY data.json .
-COPY image*.png .  # Inclure les images (si ton app les utilise)
 
 # Exposer le port utilisé par ton application (ajuste si nécessaire)
 EXPOSE 5000
